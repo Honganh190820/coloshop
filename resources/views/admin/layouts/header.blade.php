@@ -1,13 +1,21 @@
 <header class="main-header">
     <!-- Logo -->
-    <a style="background: 	#9900CC" href="index2.html" class="logo">
+    <a style="background: #9152f8;
+    background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+    background: -o-linear-gradient(top, #7579ff, #b224ef);
+    background: -moz-linear-gradient(top, #7579ff, #b224ef);
+    background: linear-gradient(top, #7579ff, #b224ef);" href="index2.html" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>Admin</b></span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"><b>Quản Lý Website</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
-    <nav style="background: #990099" class="navbar navbar-static-top">
+    <nav style="background: #9152f8;
+    background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+    background: -o-linear-gradient(top, #7579ff, #b224ef);
+    background: -moz-linear-gradient(top, #7579ff, #b224ef);
+    background: linear-gradient(top, #7579ff, #b224ef);" class="navbar navbar-static-top">
         <!-- Sidebar toggle button-->
         <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
             <span class="sr-only">Toggle navigation</span>

@@ -57,13 +57,15 @@
                             <li class="checkout">
                                 <a href="/dat-hang#my_cart">
                                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    @if(session('cart'))
                                     <span id="checkout_items" class="checkout_items">
-                                         @if(session('cart'))
+
                                             <span id="total-qty" class="" style="margin: 5px"> {{session('cart')->totalQty }} </span>
-                                        @else
-                                            <span id="total-qty" class="" style="margin: 5px"> 0 </span>
-                                        @endif
+{{--                                        @else--}}
+{{--                                            <span id="total-qty" class="" style="margin: 5px"> 0 </span>--}}
+
                                     </span>
+                                    @endif
                                 </a>
                             </li>
                         </ul>
